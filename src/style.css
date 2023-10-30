@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    vertical-align: baseline;
+}
+#input-task {
+    border: 0;
+    border-bottom: 2px solid tomato;
+    width: 300px;
+    margin-top: 5%;
+}
+
+#add-task-button {
+    background-color: mediumpurple;
+    opacity: 0.5;
+}
+.task {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+li {
+    text-align: left;
+}
+.delete-btn {
+    border-radius: 50%;
+    font-size: 60%;
+    border: none;
+    background-color: red;
+}
